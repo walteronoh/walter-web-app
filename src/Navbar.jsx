@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function NavBar() {
   return (
     <>
-      <nav className="bg-white dark:bg-gray-900  border-b-4 border-violet-900 ">
+      <nav className="bg-white dark:bg-gray-900  border-b-4 border-blue-900 ">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 duration-500">
           <a className="flex items-center">
             <img
@@ -64,6 +64,12 @@ function NavBar() {
                   className="block py-2 pl-3 pr-4  dark:bg-gray-900 hover:text-violet-400 duration-500 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500 mb-2"
 
                   to="/blog">Blog</Link>
+              </li>
+                            <li>
+                <Link
+                  className="block py-2 pl-3 pr-4  dark:bg-gray-900 hover:text-violet-400 duration-500 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500 mb-2"
+
+                  to="/portfolio">Portfolio</Link>
               </li>
             </ul>
           </div>

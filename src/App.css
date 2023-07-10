@@ -1,38 +1,10 @@
-nav{
-  background:black;
-  padding-top:12px;
-  padding-bottom:12px;
-}
-nav ul{
-  display:flex;
-  gap:2rem;
-}
 
-nav ul li{
-  list-style-type:none;
-  transition:234ms;
-}
-
-li:hover{
-  transform:translateY(-3px);
-  transition:234ms;
-}
-
-a{
-  text-decoration:none;
-  color:white;
-}
-
-/* Routes Component */
 
 footer{
   background:black;
   color:white;
-  margin-top:80vh;
+  margin-top:20vh;
   padding-top:9px;
   padding-bottom:23px;
 }
 
-.home{
-  padding:12px;
-}
