@@ -1,25 +1,25 @@
-// App.tsx
-import './App.css'
-import React from 'react';
-import Navbar from './comps/Navbar';
-import Footer from './comps/Footer';
-import Home from './Pages/Home'
+import { Routes, Route } from 'react-router-dom';
+import NavBar from './Navbar';
+import Footer from './Footer'
+import Home from "./Pages/Home";
+import Blog from './Pages/Blog';
+import Form from './Pages/Form';
+import Skills from './Pages/Skills';
 
-const App = () => {
-  const links = [
-    { label: 'Home', url: '' },
-    { label: 'About', url: '/about' },
-    { label: 'Contact', url: '/contact' },
-  ];
-  
 
+
+
+export default function App() {
   return (
-    <div>
-      <Navbar links={links} />
-      <Home/>
-      <Footer text="Copyright © 2023. All rights reserved." />
+    <div class="dark:bg-slate-900 selection:bg-fuchsia-300">
+      <NavBar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/skills" element={<Skills />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/form" element={<Form />} />
+      </Routes>
+      <Footer />
     </div>
   );
-};
-
-export default App;
+}
