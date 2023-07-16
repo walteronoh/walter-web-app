@@ -9,7 +9,7 @@ export default function Portfolio() {
         projectOwner: "OpenMRS",
         projectDescription: "An open-source project to develop software to support the delivery of health care.",
         projectURL: "https://openmrs.org/"
-    },{
+    }, {
         img: "https://lh3.googleusercontent.com/kKuNRapCWzFbQWnhKCpzOaMJFShoBZeTEHHmDXyW5hCRHLCDpXqKkdub3dowKody8mxy",
         imgAlt: "",
         projectName: "OneTill",

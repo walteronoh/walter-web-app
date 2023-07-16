@@ -8,15 +8,15 @@ export default function Form() {
   const sendMail = (e) => {
     e.preventDefault();
     try {
-    setIsSending(true);
-    emailjs.sendForm(import.meta.env.SERVICE_ID, import.meta.env.TEMPLATE_ID, form.current, import.meta.env.PUBLIC_KEY)
-      .then((result) => {
-        setIsSending(false);
-        alert('Message sent successfully.');
-      }, (error) => {
-        setIsSending(false);
-        alert('It seems like there was an error while sending your message.');
-      });
+      setIsSending(true);
+      emailjs.sendForm(import.meta.env.SERVICE_ID, import.meta.env.TEMPLATE_ID, form.current, import.meta.env.PUBLIC_KEY)
+        .then((result) => {
+          setIsSending(false);
+          alert('Message sent successfully.');
+        }, (error) => {
+          setIsSending(false);
+          alert('It seems like there was an error while sending your message.');
+        });
     } catch (error) {
       setIsSending(false);
       alert('It seems like there was an error while sending your message.');
