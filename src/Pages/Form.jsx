@@ -9,7 +9,7 @@ export default function Form() {
     e.preventDefault();
     try {
       setIsSending(true);
-      emailjs.sendForm(import.meta.env.SERVICE_ID, import.meta.env.TEMPLATE_ID, form.current, import.meta.env.PUBLIC_KEY)
+      emailjs.sendForm(import.meta.env.VITE_SERVICE_ID, import.meta.env.VITE_TEMPLATE_ID, form.current, import.meta.env.VITE_PUBLIC_KEY)
         .then((result) => {
           setIsSending(false);
           alert('Message sent successfully.');
