@@ -3,8 +3,7 @@ export default function Footer() {
   return (
     <>
 
-      <footer class="bg-white dark:bg-gray-900
-        ">
+      <footer class="bg-white dark:bg-gray-900 h-96">
         <div class="mx-auto  w-full max-w-screen-xl p-4 pb-96 lg:py-8">
           <div class="md:flex md:justify-between">
             <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
