@@ -8,7 +8,7 @@ function NavBar() {
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 duration-500">
           <a className="flex items-center">
             <img
-              src="https://img.icons8.com/?size=512&id=bzZ1vLaK5u1A&format=png"
+              src="wk-logo-wt-no-bg.png"
               className="h-8 mr-3"
               alt="Website Logo"
             />
@@ -43,32 +43,21 @@ function NavBar() {
               <li>
                 <Link
                   className="block py-2 pl-3 pr-4  dark:bg-gray-900 hover:text-violet-400 duration-500 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500 mb-2"
-
                   to="/">Home</Link>
               </li>
               <li>
                 <Link
                   className="block py-2 pl-3 pr-4  dark:bg-gray-900 hover:text-violet-400 duration-500 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500 mb-2"
-
-                  to="/form">Form</Link>
+                  to="/form">Contact</Link>
               </li>
               <li>
                 <Link
                   className="block py-2 pl-3 pr-4  dark:bg-gray-900 hover:text-violet-400 duration-500 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500 mb-2"
-
-
                   to="/skills">Skills</Link>
               </li>
               <li>
                 <Link
                   className="block py-2 pl-3 pr-4  dark:bg-gray-900 hover:text-violet-400 duration-500 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500 mb-2"
-
-                  to="/blog">Blog</Link>
-              </li>
-                            <li>
-                <Link
-                  className="block py-2 pl-3 pr-4  dark:bg-gray-900 hover:text-violet-400 duration-500 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500 mb-2"
-
                   to="/portfolio">Portfolio</Link>
               </li>
             </ul>
