@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
   
-function NavBar() {
+export default function NavBar() {
   const [showMenu, setShowMenu] = React.useState(false);
 
   function toggleMenu() {
@@ -71,3 +71,5 @@ function NavBar() {
     </>
   );
 }
+
+
