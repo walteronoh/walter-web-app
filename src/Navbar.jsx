@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-export default function NavBar() {
+function NavBar() {
   return (
     <>
       <nav className="bg-white dark:bg-gray-900  border-b-4 border-blue-900 ">
@@ -67,3 +67,6 @@ export default function NavBar() {
     </>
   );
 }
+
+
+export default NavBar;
