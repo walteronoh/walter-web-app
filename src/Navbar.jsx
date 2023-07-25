@@ -32,30 +32,30 @@ function NavBar() {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                fill-rule="evenodd"
+                fillRule="evenodd"
                 d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                clip-rule="evenodd"
+                clipRule="evenodd"
               ></path>
             </svg>
           </button>
           <div className="hidden w-full md:block md:w-auto duration-500 truncate" id="navbar-default">
             <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border duration-500 border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-              <li>
+              <li key="home">
                 <Link
                   className="block py-2 pl-3 pr-4  dark:bg-gray-900 hover:text-violet-400 duration-500 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500 mb-2"
                   to="/">Home</Link>
               </li>
-              <li>
+              <li key="contact">
                 <Link
                   className="block py-2 pl-3 pr-4  dark:bg-gray-900 hover:text-violet-400 duration-500 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500 mb-2"
                   to="/form">Contact</Link>
               </li>
-              <li>
+              <li key="skills">
                 <Link
                   className="block py-2 pl-3 pr-4  dark:bg-gray-900 hover:text-violet-400 duration-500 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500 mb-2"
                   to="/skills">Skills</Link>
               </li>
-              <li>
+              <li key="portfolio">
                 <Link
                   className="block py-2 pl-3 pr-4  dark:bg-gray-900 hover:text-violet-400 duration-500 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500 mb-2"
                   to="/portfolio">Portfolio</Link>
@@ -67,6 +67,5 @@ function NavBar() {
     </>
   );
 }
-
 
 export default NavBar;
