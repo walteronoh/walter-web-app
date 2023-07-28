@@ -6,21 +6,21 @@ export default function Portfolio() {
         img: "https://openmrs.org/wp-content/uploads/2021/08/cropped-OpenMRSlogo-transparent.png",
         imgAlt: "",
         projectName: "OpenMRS",
-        projectOwner: "OpenMRS",
+        projectOwner: "",
         projectDescription: "An open-source project to develop software to support the delivery of health care.",
         projectURL: "https://openmrs.org/"
     }, {
         img: "https://lh3.googleusercontent.com/kKuNRapCWzFbQWnhKCpzOaMJFShoBZeTEHHmDXyW5hCRHLCDpXqKkdub3dowKody8mxy",
         imgAlt: "",
         projectName: "OneTill",
-        projectOwner: "LociAfrica",
+        projectOwner: "",
         projectDescription: "OneTill is an e-wallet web application used for saving money, requesting loans, and purchasing goods and services.",
         projectURL: "https://onetill.biz/#/login"
     }, {
         img: "https://lh3.googleusercontent.com/00GwJKvnO_4cJjiSnTFZRpWdl1Ps5SBhUeOji967uVyhwouw3fP9UPU9iqCOse696NQ",
         imgAlt: "",
         projectName: "OPRS",
-        projectOwner: "NCA",
+        projectOwner: "",
         projectDescription: "OPRS (Online Project Registration System) is a web application used in the registration and verification of construction projects.",
         projectURL: "https://oprs.nca.go.ke/"
     },
@@ -28,7 +28,7 @@ export default function Portfolio() {
         img: "https://lh3.googleusercontent.com/kKuNRapCWzFbQWnhKCpzOaMJFShoBZeTEHHmDXyW5hCRHLCDpXqKkdub3dowKody8mxy",
         imgAlt: "",
         projectName: "OneTill Mobile Application",
-        projectOwner: "LociAfrica",
+        projectOwner: "",
         projectDescription: "OneTill Mobile app is the an e-wallet mobile application used for saving money, requesting loans, and purchasing goods and services.",
         projectURL: "https://play.google.com/store/apps/details?id=com.lociafrica.onetill"
     },
@@ -36,7 +36,7 @@ export default function Portfolio() {
         img: "https://lh3.googleusercontent.com/00GwJKvnO_4cJjiSnTFZRpWdl1Ps5SBhUeOji967uVyhwouw3fP9UPU9iqCOse696NQ",
         imgAlt: "",
         projectName: "NCA Ujenzi Mobile Application",
-        projectOwner: "NCA",
+        projectOwner: "",
         projectDescription: "NCA Ujenzi is a mobile application to be used by the NCA compliance officers for site inspections.",
         projectURL: "https://play.google.com/store/apps/details?id=com.nca.oprs"
     },
@@ -44,7 +44,7 @@ export default function Portfolio() {
         img: "https://lh3.googleusercontent.com/00GwJKvnO_4cJjiSnTFZRpWdl1Ps5SBhUeOji967uVyhwouw3fP9UPU9iqCOse696NQ",
         imgAlt: "",
         projectName: "NCA Mobile Application",
-        projectOwner: "NCA",
+        projectOwner: "",
         projectDescription: "NCA app is a mobile application for verifying NCA staff, tracking registered construction projects and contractor companies.",
         projectURL: "https://play.google.com/store/apps/details?id=com.nca.nca_app"
     },
@@ -52,7 +52,7 @@ export default function Portfolio() {
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPK-6Jfpxm0K8mPIhB_njVcN__D1OgT1DchA&usqp=CAU",
         imgAlt: "",
         projectName: "Ampath Employee Management System",
-        projectOwner: "Ampath",
+        projectOwner: "",
         projectDescription: "Employee Management System.",
         projectURL: "https://github.com/AMPATH/ampath-employee-management"
     }];
