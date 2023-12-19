@@ -4,16 +4,16 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix admin: <http://webns.net/mvcb/> .
 
-<>
+<#>
     admin:errorReportsTo <mailto:leigh@ldodds.com> ;
     admin:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
     a foaf:PersonalProfileDocument ;
-    foaf:maker <https://walterkiprono.com#me> ;
-    foaf:primaryTopic <https://walterkiprono.com#me> .
+    foaf:maker <#me> ;
+    foaf:primaryTopic <#me> .
 
-<https://walterkiprono.com#me>
+<#me>
     a foaf:Person ;
-    foaf:depiction <https://walterkiprono.comN/A> ;
+    foaf:depiction <N/A> ;
     foaf:family_name "Kiprono" ;
     foaf:givenname "Walter" ;
     foaf:homepage <> ;
@@ -28,6 +28,5 @@
     foaf:phone <tel:0700000000> ;
     foaf:schoolHomepage <https://kabarak.ac.ke> ;
     foaf:title "Mr" ;
-    foaf:workInfoHomepage <https://walterkiprono.comwalterkiprono.com> ;
-    foaf:workplaceHomepage <https://walterkiprono.comwalterkiprono.com> .
-
+    foaf:workInfoHomepage <https://walterkiprono.com> ;
+    foaf:workplaceHomepage <https://walterkiprono.com> .
